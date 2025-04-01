@@ -45,55 +45,40 @@ SpringShield is a **secure authentication and authorization system** built using
 ---
 ## **Key Components**
 1. Authentication Service
-Handles user registration, login, and logout processes.
-
-Generates and validates JWT access tokens and refresh tokens.
-
-Implements Spring Security for authentication and authorization enforcement.
-
-Stores user credentials securely in a relational database.
+- Handles user registration, login, and logout processes.
+- Generates and validates JWT access tokens and refresh tokens.
+- Implements Spring Security for authentication and authorization enforcement.
+- Stores user credentials securely in a relational database.
 
 2. Token Management System
-Manages JWT token lifecycle, including expiration and refresh token rotation.
-
-Provides secure storage and retrieval of refresh tokens in the database.
-
-Ensures secure API access by verifying tokens with each request.
+- Manages JWT token lifecycle, including expiration and refresh token rotation.
+- Provides secure storage and retrieval of refresh tokens in the database.
+- Ensures secure API access by verifying tokens with each request.
 
 3. Role-Based Access Control (RBAC) System
-Defines and manages user roles and permissions.
-
-Enforces access restrictions using Spring Security filters.
-
-Ensures role-based authorization for API endpoints.
+- Defines and manages user roles and permissions.
+- Enforces access restrictions using Spring Security filters.
+- Ensures role-based authorization for API endpoints.
 
 4. Kafka Event Logging System
-Publishes authentication-related events (e.g., successful login, failed login attempts).
-
-Kafka consumers listen for security anomalies (e.g., multiple failed logins).
-
-Enables real-time monitoring of authentication activity.
+- Publishes authentication-related events (e.g., successful login, failed login attempts).
+- Kafka consumers listen for security anomalies (e.g., multiple failed logins).
+- Enables real-time monitoring of authentication activity.
 
 5. API Gateway & Security Filters
-Acts as the entry point for all authentication requests.
-
-Implements Spring Security filters to validate JWTs before processing requests.
-
-Uses SecurityContextHolder to store user authentication details.
+- Acts as the entry point for all authentication requests.
+- Implements Spring Security filters to validate JWTs before processing requests.
+- Uses SecurityContextHolder to store user authentication details.
 
 6. Database Management System
-Stores user details, roles, tokens, and authentication logs.
-
-Ensures secure encryption and storage of sensitive user data.
-
-Uses PostgreSQL/MySQL for structured and scalable data storage.
+- Stores user details, roles, tokens, and authentication logs.
+- Ensures secure encryption and storage of sensitive user data.
+- Uses PostgreSQL/MySQL for structured and scalable data storage.
 
 7. Dockerized Deployment System
-Containerizes the authentication service using Docker for seamless deployment.
-
-Ensures scalability and portability across different environments.
-
-Simplifies deployment and configuration with Docker Compose.
+- Containerizes the authentication service using Docker for seamless deployment.
+- Ensures scalability and portability across different environments.
+- Simplifies deployment and configuration with Docker Compose.
 
 ---
 ### **Diagram**
