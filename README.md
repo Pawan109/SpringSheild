@@ -43,7 +43,7 @@ SpringShield is a **secure authentication and authorization system** built using
     
 
 ---
-Key Components
+## **Key Components**
 1. Authentication Service
 Handles user registration, login, and logout processes.
 
