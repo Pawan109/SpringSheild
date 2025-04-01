@@ -46,6 +46,8 @@ SpringShield is a **secure authentication and authorization system** built using
 ### **Diagram**
 ![Image](https://github.com/user-attachments/assets/04c3773d-ad1e-4c5c-b444-10a7b5206d1f)
 
+![Image](https://github.com/user-attachments/assets/3c816cac-1fe9-489d-a580-59225970f2fc)
+
 ---
 ## **Technologies Used**
 
